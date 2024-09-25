@@ -4,7 +4,7 @@ stages:
 variables:
   REPO_URL: "ssh://git@gitlab.webexpertsnepal.com:2020/sabin/react-app.git"  # Default repository URL 
   PROJECT_NAME: react_app # Use the GitLab project name as the folder name 
-  GIT_HUB_REPO: "webexpertsnepal13/react-test.git"
+  GIT_HUB_REPO: "webexpertsnepal13/react-new.git"
   PORT: "3006"  # Replace with a dynamic port for each project
 
 setup:
