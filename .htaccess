@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Handle requests for the React app
+RewriteBase /react/
+
+# Rewrite rule for handling client-side routing
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /react/index.html [L]
